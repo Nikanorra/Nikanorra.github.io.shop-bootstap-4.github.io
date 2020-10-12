@@ -89,16 +89,15 @@ h3 {
 .menu-carousel .carousel-caption {
   left: 0;
   top: 220px;
+  max-width: 650px;
 }
 .menu-carousel .carousel-caption h5 {
   font-size: 48px;
   font-weight: bold;
-  max-width: 500px;
 }
 .menu-carousel .carousel-caption p {
   font-size: 30px;
   margin-bottom: 40px;
-  max-width: 500px;
 }
 .menu-carousel .carousel-caption .btn-red {
   padding: 20px 30px;
@@ -114,7 +113,6 @@ h3 {
 /*---------------------------indicators----------------*/
 .carousel-indicators-wrap {
   position: absolute;
-  width: 100%;
   bottom: 0;
   margin: 0 auto;
   left: 0;
@@ -130,12 +128,12 @@ h3 {
   margin-right: 45%;
   margin-left: 45%;
   padding: 5px 25px;
-  bottom: -35px;
+  bottom: -25px;
 }
 /*изменение формы indicators на точки кружки*/
 .carousel-indicators li {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   border-radius: 100%;
   background-color: #d2d2d2;
   margin-left: 19px;
